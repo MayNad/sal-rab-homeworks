@@ -14,6 +14,7 @@ function addInCartMessage(title, price) {
     message = message + "теперь в корзине!" ;
     
     console.log('message') ;
+    console.log('productPrice') ;
 
     // Конец решения задания №1.1.
 
