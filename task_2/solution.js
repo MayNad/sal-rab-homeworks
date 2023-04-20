@@ -11,10 +11,10 @@ function calcShipping(sum, min, shipping) {
         console.log(shippingSum = 0);
     }
     if(productsSum >= freeShippingMinSum) {
-        console.log(shippingSum = 0)
+        console.log(shippingSum = 0);
     }
     if(productsSum > 0 && productsSum < freeShippingMinSum) {
-        console.log(shippingSum = shippingPrice)
+        console.log(shippingSum = shippingPrice);
     }
     // Конец решения задания №2.1.
 
@@ -31,10 +31,10 @@ function calcDiscount(sum, min, discount) {
     let discountSum;
 
     if(productsSum >= discountMinSum) {
-        console.log(discountSum = productsSum * discountPart)
+        console.log(discountSum = productsSum * discountPart);
     } 
     else {
-        console.log(discountSum = 0)
+        console.log(discountSum = 0);
     }
 
     // Конец решения задания №2.2.
@@ -60,7 +60,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
 
     let freeShipping;
     shippingSum == 0 {
-        console.log(freeShipping = true || freeShipping = false)
+        console.log(freeShipping = true || freeShipping = false);
     } 
 
     // Конец решения задачи №2.3.
