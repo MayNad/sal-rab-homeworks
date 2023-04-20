@@ -14,8 +14,7 @@ function calcShipping(sum, min, shipping) {
     if(productsSum > 0 && productsSum < freeShippingMinSum) {
         shippingSum = shippingPrice;
     }
-    console.log(shippingSum);
-    
+
     // Конец решения задания №2.1.
 
     return shippingSum;
@@ -49,18 +48,16 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
     // Задача №2.3. Рассчитать скидки и доставку в корзине
 
     let totalSum;
-
     totalSum = productsSum;
-    console.log(totalSum - discountSum);
+    totalSum = totalSum- discountSum;
 
 
     let shippingSum = calcShipping(totalSum, shippingFreeMinSum, shippingPrice); // не изменяйте эту строку!!!
 
-    console.log(totalSum + shippingSum);
+    totalSum = totalSum + shippingSum;
 
     let freeShipping;
-    shippingSum == 0 
-        freeShipping = !Boolean(shippingSum);
+    freeShipping = !Boolean(shippingSum);
     
 
     // Конец решения задачи №2.3.
